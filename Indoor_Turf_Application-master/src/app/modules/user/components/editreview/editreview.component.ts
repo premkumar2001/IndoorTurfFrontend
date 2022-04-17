@@ -44,7 +44,7 @@ editReview(){
     data=>{
       console.log(data)
       //navigate to the ground 
-      alert("Ground edited Successfully")
+      alert("Review edited Successfully")
       this.router.navigate(['/user/viewreview',this.groundId]);
     },
     error=>{

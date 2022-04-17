@@ -40,7 +40,7 @@ export class DeletereviewComponent implements OnInit {
        },
        error=>{
          console.log(error);
-         this.router.navigate(['/user/viewreview' ,this.groundId]);
+         this.router.navigate(['/user/dashboard']);
        }
        );
       }
